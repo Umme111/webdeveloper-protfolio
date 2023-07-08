@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* common style */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -7,6 +11,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px  200px;
 }
 .nav-title{
     color: black;
@@ -38,4 +43,16 @@ nav li{
 nav a{
     text-decoration: none;
     color: grey;
+}
+.header{
+    background-color: khaki;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+}
+.banner .hardy{
+    width: 500px;
 }
