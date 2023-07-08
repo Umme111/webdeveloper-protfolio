@@ -46,13 +46,114 @@ nav a{
 }
 .header{
     background-color: khaki;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     /* text-align: center; */
     align-items: center;
 }
 .banner .hardy{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: gray;
+}
+.banner-title{
+    font-size: 85px;
+    width: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.banner-description{
+    max-width: 500px;
+}
+.about{
+    padding: 130px;
+    margin: 130px 0;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.about-title{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700px;
+}
+.about-description{
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    margin-top: 35px;
+}
+/* what i do */
+.what{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
+}
+.resume-column-title{
+    color: gray;
+    font-size: 30px;
+    font-weight: 700px;
+}
+/* resume style */
+.resume-contain{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-institue ,.resume-item-description{
+    color: gray;
+    
+}
+.resume-contain hr{
+    margin: 30px;
+}
+.resume-item-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-column-title{
+    margin-top: 40px;
+}
+.about-title{
+    margin-top: 30px;
+}
+.resume-item-title{
+    margin-top: 45px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
