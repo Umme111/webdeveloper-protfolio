@@ -1,0 +1,41 @@
+/* common style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800px;
+}
+span{
+    color: orange;
+}
+button{
+    background-color: orange;
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    border-radius: 10px;
+    padding: 15px 35px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    /* justify-content: space-around; */
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: grey;
+}
